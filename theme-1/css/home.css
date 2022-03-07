@@ -1,0 +1,635 @@
+:root
+{
+    /* Common Fonts */
+    --font-style-1: 'Luxurious Roman';
+    --font-style-2: 'Indie Flower';
+    --font-style-3: 'Open Sans Condensed';
+    --font-style-4: 'Quicksand';
+    --font-style-5: 'Roboto';
+
+    /* Common Images */
+    /* Common Colors */
+    --color-lgt-gray: lightgray;
+    --color-med-gray: gray;
+    --color-dark-gray: rgb(95, 91, 91);
+    --color-lgt-grey: rgb(204, 199, 199);
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-lgt-black: rgb(105, 105, 105);
+    --color-lgt-blue: dodgerblue;
+}
+
+body
+{
+    background-color: var(--color-white);
+    overflow-x: hidden;
+}
+
+.backgound-img
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+}
+
+.col-header
+{
+    /* I'm using Quicksand Font, can be changed as per Client's Perspective */
+    font-family: var(--font-style-4);
+}
+
+.col-logo-display
+{
+    float: left;
+    height: 45px;
+    width: 45px;
+    margin-top: 12px;
+    margin-left: 20px;
+
+    /* If using a transparent logo image make sure the text of the logo
+    is white, if overlayed on image or video or choose a white
+    background image */
+}
+
+/* If you want to use an Pathway Creators or any brand icon with the
+icon and brandname next to it, then uncomment the line.
+
+If you want to use the brand logo with the icon and the brandname
+already present in it then let this line be commented along with the
+html code. */
+
+.col-text-1, .col-text-2
+{
+    float: left;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.col-text-1
+{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.col-text-2
+{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.col-menu
+{
+    float: right;
+    margin-right: 40px;
+}
+
+.menu-home, .menu-accom, .menu-price, .menu-contact, .menu-about
+{
+    float: left;
+    color: var(--color-white);
+    margin-top: 26px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu-home
+{
+    margin-left: 160px;
+}
+
+.menu-accom, .menu-price, .menu-contact, .menu-about
+{
+    margin-left: 15px;
+}
+
+.col-menu a
+{
+    color: var(--color-lgt-gray);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-home a.active, .menu-home a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-accom a.active, .menu-accom a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-price a.active, .menu-price a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-contact a.active, .menu-contact a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-about a.active, .menu-about a:hover
+{
+    color: var(--color-white);
+}
+
+.col-fas
+{
+    float: left;
+    margin-top: 29px;
+    margin-left: 10px;
+    margin-right: -8px;
+    transform: rotate(72deg);
+    color: var(--color-white);
+    size: 2px;
+    height: 14px;
+    width: 10px;
+}
+
+.col-main-h1
+{
+    float: left;
+    margin-left: 280px;
+    color: var(--color-white);
+    font-size: 85px;
+}
+
+.col-main-h3
+{
+    float: left;
+    margin-left: 500px;
+    margin-top: -40px;
+    color: var(--color-white);
+    font-family: var(--font-style-4);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bolder
+{
+    font-family: var(--font-style-5);
+    font-weight: 580;
+}
+
+.img-couples
+{
+    clear: left;
+    float: left;
+    height: 300px;
+    width: 360px;
+    margin-top: -266px;
+    margin-left: 320px;
+}
+
+.col-section-1
+{
+    clear: left;
+    float: left;
+    margin-left: -6px;
+    font-family: var(--font-style-5);
+    margin-right: -10px;
+}
+
+.col-h1
+{
+    margin-top: 700px;
+    text-align: center;
+    font-weight: 100;
+    color: var(--color-lgt-blue);
+    font-size: 60px;
+}
+
+.col-h2
+{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 25px;
+    color: var(--color-med-gray);
+    font-weight: 300;
+}
+
+.col-p1
+{
+    padding-top: 20px;
+    margin-left: 720px;
+    margin-right: 360px;
+    line-height: 25px;
+    font-size: 16px;
+    color: var(--color-lgt-grey);
+    font-weight: 550;
+}
+
+.col-h3
+{
+    padding-top: 2px;
+    margin-left: 720px;
+    font-size: 16px;
+    font-weight: 680;
+    color: var(--color-med-gray);
+}
+
+.col-section-2
+{
+    font-family: var(--font-style-4);
+}
+
+.col-headline-2 p
+{
+    float: left;
+    margin-top: 250px;
+}
+
+.col-h4
+{
+    float: left;
+    margin-top: 100px;
+    margin-left: 368px;
+    text-align: center;
+    font-weight: 100;
+    color: var(--color-lgt-blue);
+    font-size: 55px;
+}
+
+.col-h5
+{
+    float: left;
+    text-align: center;
+    margin-left: 460px;
+    margin-top: -40px;
+    font-size: 24px;
+    color: var(--color-med-gray);
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.img-comf-rooms
+{
+    height: 292px;
+    width: 442px;
+    margin-left: 300px;
+}
+
+.col-h6
+{
+    color: var(--color-lgt-blue);
+    margin-left: 300px;
+    margin-bottom: -230px;
+}
+
+.col-p2
+{
+    margin-left: 300px;
+    margin-right: 720px;
+    font-size: 15px;
+}
+
+.img-cooking
+{
+    height: 292px;
+    width: 442px;
+    margin-left: -722px;
+    margin-top: -116px;
+}
+
+.col-h7
+{
+    float: right;
+    margin-right: 500px;
+    margin-top: -106px;
+    color: var(--color-lgt-blue);
+}
+
+.col-p3
+{
+    margin-top: -55px !important;
+    margin-left: 780px;
+    margin-right: 270px;
+    font-size: 15px;
+}
+
+.img-skiing
+{
+    height: 292px;
+    width: 442px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.col-h8
+{
+    color: var(--color-lgt-blue);
+    margin-left: 300px;
+    margin-bottom: -230px;
+}
+
+.col-p4
+{
+    margin-left: 300px;
+    margin-right: 760px;
+    font-size: 15px;
+}
+
+.img-spa
+{
+    height: 292px;
+    width: 442px;
+    margin-left: -722px;
+    margin-top: -156.3px;
+}
+
+.col-h9
+{
+    float: right;
+    margin-right: 494px;
+    margin-top: -104px;
+    color: var(--color-lgt-blue);
+}
+
+.col-p5
+{
+    margin-top: -55px !important;
+    margin-left: 780px;
+    margin-right: 280px;
+    font-size: 15px;
+}
+
+.btn-accom
+{
+    border: 1.4px groove var(--color-lgt-blue);
+    height: 60px;
+    width: 260px;
+    color: var(--color-black);
+    font-family: var(--font-style-4);
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 630px;
+    font-weight: 600;
+}
+
+.btn-accom:hover
+{
+    border: 1.4px groove var(--color-black);
+    height: 60px;
+    width: 260px;
+    color: var(--color-black);
+    font-family: var(--font-style-4);
+    font-size: 18px;
+}
+
+.col-section-3
+{
+    font-family: var(--font-style-4);
+}
+
+.col-h10
+{
+    float: left;
+    margin-top: 100px;
+    margin-left: 550px;
+    text-align: center;
+    font-weight: 100;
+    color: var(--color-lgt-blue);
+    font-size: 55px;
+}
+
+.col-h11
+{
+    float: left;
+    text-align: center;
+    margin-left: 470px;
+    margin-top: -40px;
+    font-size: 24px;
+    color: var(--color-med-gray);
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.img-ski-trials
+{
+    margin-top: -40px;
+    margin-left: 290px;
+    height: 181.05px;
+    width: 281.56px;
+}
+
+.col-h12
+{
+    color: var(--color-dark-gray);
+    font-size: 15px;
+    margin-left: 340px;
+}
+
+.col-p6
+{
+    font-size: 15px;
+    color: var(--color-lgt-black);
+    margin-left: 320px;
+    margin-bottom: -10px;
+}
+
+.col-p7
+{
+    font-size: 15px;
+    color: var(--color-lgt-black);
+    margin-left: 290px;
+    margin-bottom: -10px;
+}
+
+.col-p8
+{
+    font-size: 15px;
+    color: var(--color-lgt-black);
+    margin-left: 370px;
+}
+
+.img-hill-slopes
+{
+    margin-top: -40px;
+    float: right;
+    margin-top: -316.9px;
+    margin-right: 610px;
+    height: 181.05px;
+    width: 281.56px;
+}
+
+.col-h13
+{
+    float: right;
+    margin-top: -116.4px;
+    margin-right: 700px;
+    color: var(--color-dark-gray);
+    font-size: 15px;
+}
+
+.col-p9
+{
+    float: right;
+    margin-top: -82px;
+    margin-right: 614px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.col-p10
+{
+    float: right;
+    margin-top: -59px;
+    margin-right: 622px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.col-p11
+{
+    float: right;
+    margin-top: -34px;
+    margin-right: 722px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.img-spa-centre
+{
+    margin-top: -40px;
+    float: right;
+    margin-top: -317px;
+    margin-right: -490px;
+    height: 181.05px;
+    width: 281.56px;
+}
+
+.col-h14
+{
+    float: right;
+    margin-top: -116.4px;
+    margin-right: -420px;
+    color: var(--color-dark-gray);
+    font-size: 15px;
+}
+
+.col-p12
+{
+    float: right;
+    margin-top: -82px;
+    margin-right: -450px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.col-p13
+{
+    float: right;
+    margin-top: -59px;
+    margin-right: -490px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.col-p14
+{
+    float: right;
+    margin-top: -34px;
+    margin-right: -410px;
+    font-size: 15px;
+    color: var(--color-lgt-black);
+}
+
+.col-footer
+{
+    font-family: var(--font-style-4);
+}
+
+.img-footer-1
+{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 100%;
+    object-position: center top;
+    object-fit: cover;
+    mask-image: -200px;
+}
+
+.col-h15
+{
+    float: left;
+    font-size: 55px;
+    color: var(--color-lgt-blue);
+    font-weight: 300;
+    margin-left: 300px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+.col-cname
+{
+    color: var(--color-white);
+    font-weight: 350;
+    margin-left: 300px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.bold
+{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.btn-contact
+{
+    border: 1.5px solid var(--color-lgt-blue);
+    height: 60px;
+    width: 260px;
+    color: var(--color-white);
+    background-color: transparent;
+    font-family: var(--font-style-4);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.btn-contact:hover
+{
+    border-color: var(--color-white);
+    transition-delay: 0.25s;
+    animation-delay: 0.20s;
+}
+
+.box-8
+{
+    margin-top: 140px;
+    text-align: center;
+    font-family: var(--font-style-4);
+    font-weight: 100;
+    color: var(--color-lgt-black);
+    font-size: 16px;
+}
+
+.box-8 h4
+{
+    font-weight: 400;
+}
+
+.col-pc
+{
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+
+.emp-glob
+{
+    color: var(--color-lgt-black);
+    text-underline-offset: 4px;
+}

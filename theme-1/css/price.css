@@ -1,0 +1,238 @@
+:root
+{
+    /* Common Fonts */
+    --font-style-1: 'Luxurious Roman';
+    --font-style-2: 'Indie Flower';
+    --font-style-3: 'Open Sans Condensed';
+    --font-style-4: 'Quicksand';
+    --font-style-5: 'Roboto';
+
+    /* Common Images */
+    /* Common Colors */
+    --color-lgt-gray: lightgray;
+    --color-med-gray: gray;
+    --color-dark-gray: rgb(95, 91, 91);
+    --color-lgt-grey: rgb(204, 199, 199);
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-lgt-black: rgb(105, 105, 105);
+    --color-lgt-blue: dodgerblue;
+}
+
+body
+{
+    background-color: var(--color-white);
+}
+
+.backgound-img
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+}
+
+.col-header
+{
+    /* I'm using Quicksand Font, can be changed as per Client's Perspective */
+    font-family: var(--font-style-4);
+}
+
+.col-logo-display
+{
+    float: left;
+    height: 45px;
+    width: 45px;
+    margin-top: 12px;
+    margin-left: 20px;
+
+    /* If using a transparent logo image make sure the text of the logo
+    is white, if overlayed on image or video or choose a white
+    background image */
+}
+
+/* If you want to use an Pathway Creators or any brand icon with the
+icon and brandname next to it, then uncomment the line.
+
+If you want to use the brand logo with the icon and the brandname
+already present in it then let this line be commented along with the
+html code. */
+
+.col-text-1, .col-text-2
+{
+    float: left;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.col-text-1
+{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.col-text-2
+{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+
+.col-menu
+{
+    float: right;
+    margin-right: 40px;
+}
+
+.menu-home, .menu-accom, .menu-price, .menu-contact, .menu-about
+{
+    float: left;
+    color: var(--color-white);
+    margin-top: 26px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu-home
+{
+    margin-left: 160px;
+}
+
+.menu-accom, .menu-price, .menu-contact, .menu-about
+{
+    margin-left: 15px;
+}
+
+.col-menu a
+{
+    color: var(--color-lgt-gray);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-home a.active, .menu-home a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-accom a.active, .menu-accom a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-price a.active, .menu-price a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-contact a.active, .menu-contact a:hover
+{
+    color: var(--color-white);
+}
+
+.menu-about a.active, .menu-about a:hover
+{
+    color: var(--color-white);
+}
+
+.col-fas
+{
+    float: left;
+    margin-top: 29px;
+    margin-left: 10px;
+    margin-right: -8px;
+    transform: rotate(72deg);
+    color: var(--color-white);
+    size: 2px;
+    height: 14px;
+    width: 10px;
+}
+
+.col-main-h1
+{
+    float: left;
+    margin-left: 280px;
+    color: var(--color-white);
+    font-size: 85px;
+}
+
+.col-main-h3
+{
+    float: left;
+    margin-left: 500px;
+    margin-top: -40px;
+    color: var(--color-white);
+    font-family: var(--font-style-4);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.col-bar
+{
+    width: 48%;
+    margin-left: 420px;
+}
+
+.col-pricelist
+{
+    font-family: var(--font-style-4);
+    padding-top: 48rem;
+}
+
+.col-desc-h3, .col-desc-info
+{
+    margin-left: 420px;
+}
+
+.col-desc-price
+{
+    margin-left: 1100px;
+    margin-top: -41.5px;
+    color: var(--color-lgt-black);
+}
+
+.col-desc-info
+{
+    color: var(--color-lgt-black);
+    font-size: 18px;
+}
+
+.col-desc-agreement
+{
+    margin-left: 1000px;
+    margin-top: -41.5px;
+    color: var(--color-lgt-black);
+}
+
+.box-8
+{
+    margin-top: 86px;
+    text-align: center;
+    font-family: var(--font-style-4);
+    font-weight: 100;
+    color: var(--color-lgt-black);
+    font-size: 16px;
+}
+
+.box-8 h4
+{
+    font-weight: 400;
+}
+
+.col-pc
+{
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+
+.bml
+{
+    color: var(--color-lgt-black);
+    text-underline-offset: 4px;
+    text-transform: capitalize;
+}
