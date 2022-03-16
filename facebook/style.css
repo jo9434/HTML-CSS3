@@ -1,0 +1,90 @@
+:root
+{
+    /* Custom Colors */
+    --color-dodger-blue: dodgerblue;
+    --color-white: white;
+    --color-lgt-gray: lightgray;
+    --color-dark-gray: darkgray;
+    --color-black: black;
+
+    /* Custom Fonts */
+    --font-Hubballi: 'Hubballi';
+}
+
+body
+{
+    background-color: var(--color-white);
+    color: var(--color-white);
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-message
+{
+    height: 30px;
+    width: 60px;
+    background: none;
+    border: 1px solid;
+    border-color: var(--color-dodger-blue);
+    border-radius: 25px;
+    transition: background 0.9s;
+}
+
+.btn-message:hover
+{
+    background: var(--color-dark-gray);
+}
+
+.text
+{
+    text-transform: uppercase;
+    font-family: var(--font-Hubballi);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: -10px;
+    line-height: 36px;
+    --moz-color-transition: color 1.2s;
+    --moz-text-transition: letter-spacing 2s;
+    transition: var(--moz-text-transition), var(--moz-color-transition);
+}
+
+.text:hover
+{
+    color: var(--color-lgt-gray);
+    letter-spacing: 4px;
+}
+
+.navbar
+{
+    background-color: var(--color-dodger-blue);
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.d1
+{
+    float: left;
+    padding-top: 4px;
+    margin-left: 1220px;
+    margin-top: -50px;
+    background: var(--color-dodger-blue);
+}
+
+.d2
+{
+    float: left;
+    padding-top: 2px;
+    margin-left: 1280px;
+    margin-top: -48px;
+}
+
+.d3
+{
+    float: left;
+    padding-top: 2px;
+    margin-left: 1340px;
+    margin-top: -48px;
+}
