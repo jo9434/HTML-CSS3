@@ -51,11 +51,3 @@ function disableUser3()
     disableUser3.style.width = "15px";
     return disableUser3;
 }
-
-function notifyIcon()
-{
-    var notifyIcon1 = document.getElementById("btn-message1").insertAdjacentText = "1";
-    var notifyIcon2 = document.getElementById("btn-message2").insertAdjacentText = "4";
-    var notifyIcon3 = document.getElementById("btn-message3").insertAdjacentText = "7";
-    return notifyIcon1, notifyIcon2, notifyIcon3;
-}
