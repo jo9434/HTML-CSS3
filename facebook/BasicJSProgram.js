@@ -1,4 +1,4 @@
-function notifyUser1()
+function activateHome()
 {
     var notifyUser1 = document.getElementById("btn-message1");
     notifyUser1.style.color = "#9642F5";
@@ -7,7 +7,7 @@ function notifyUser1()
     return notifyUser1;
 }
 
-function disableUser1()
+function disableHome()
 {
     var disableUser1 = document.getElementById("btn-message1");
     disableUser1.style.color = "white";
@@ -16,7 +16,7 @@ function disableUser1()
     return disableUser1;
 }
 
-function notifyUser2()
+function activateNotify()
 {
     var notifyUser2 = document.getElementById("btn-message2");
     notifyUser2.style.color = "#42F55A";
@@ -25,7 +25,7 @@ function notifyUser2()
     return notifyUser2;
 }
 
-function disableUser2()
+function disableNotify()
 {
     var disableUser2 = document.getElementById("btn-message2");
     disableUser2.style.color = "white";
@@ -34,7 +34,7 @@ function disableUser2()
     return disableUser2;
 }
 
-function notifyUser3()
+function activateMessage()
 {
     var notifyUser3 = document.getElementById("btn-message3");
     notifyUser3.style.color = "#F59E42";
@@ -43,7 +43,7 @@ function notifyUser3()
     return notifyUser3;
 }
 
-function disableUser3()
+function disableMessage()
 {
     var disableUser3 = document.getElementById("btn-message3");
     disableUser3.style.color = "white";
